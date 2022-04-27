@@ -1,0 +1,1 @@
+import { changeStringCase } from '../index';
