@@ -8,14 +8,14 @@ import {
 
 describe('changeStringCase()', () => {
   it('Return correct value. String to upper or lowercase', () => {
-    expect(changeStringCase('HELLO WORLD', 'lowercase')).toEqual(
-      'hello world'
+    expect(changeStringCase('GIT ADD', 'lowercase')).toEqual(
+      'git add'
     );
-    expect(changeStringCase('hello world', 'uppercase')).toEqual(
-      'HELLO WORLD'
+    expect(changeStringCase('git commit', 'uppercase')).toEqual(
+      'GIT COMMIT'
     );
-    expect(changeStringCase('Hello world')).toEqual(
-      'Hello world'
+    expect(changeStringCase('Git push')).toEqual(
+      'Git push'
     );
   });
 }); 
